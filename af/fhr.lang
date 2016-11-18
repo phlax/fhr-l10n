@@ -1,7 +1,3 @@
-## NOTE: To test this page you can open about:config and set datareporting.healthreport.about.reportUrl to https://fhr-dev.allizom.org/%LOCALE%/v4/
-## NOTE: Then open about:healthreport in Firefox
-
-
 ;Firefox Health Report
 Firefox-gesondheidsverslag
 
@@ -31,7 +27,7 @@ U het gekies om nie meer data met Mozilla te deel nie, maar u kan steeds die bla
 
 
 ;Your Health Report data will also be removed from Mozilla's servers. Learn more in our <a href="%(privacy_url)s">privacy policy.</a>
-Your Health Report data will also be removed from Mozilla's servers. Learn more in our <a href="%(privacy_url)s">privacy policy.</a>
+asdfa
 
 
 ;You've chosen to share your data with Mozilla from time to time. Thanks for being part of our mission to build a brighter future for the Web.
@@ -59,10 +55,12 @@ updates
 
 
 # Possible value for "updates"
+# Possible value for "updates"
 ;automatic
 automatic
 
 
+# Possible value for "updates"
 # Possible value for "updates"
 ;prompt
 prompt
@@ -489,6 +487,7 @@ Privaatheidbeleid
 
 
 # The following strings are used only in the Mobile version of about:healthreport (Firefox for Android)
+# The following strings are used only in the Mobile version of about:healthreport (Firefox for Android)
 ;Firefox Health Report lets you optimize your Firefox and helps us build a more excellent browser. Reports will be pretty basic at first, but will continue to evolve and grow.
 Firefox Health Report lets you optimize your Firefox and helps us build a more excellent browser. Reports will be pretty basic at first, but will continue to evolve and grow.
 
@@ -746,10 +745,13 @@ You are currently not sharing your health report with Mozilla.
 
 
 # This string is displayed when selecting Raw Data near the title
+# This string is displayed when selecting Raw Data near the title
 ;Firefox Health Report (FHR) records anonymous data about your computer, configuration, usage, performance, and error conditions. This data helps us improve Firefox for you and for other Firefox users.
 Firefox Health Report (FHR) records anonymous data about your computer, configuration, usage, performance, and error conditions. This data helps us improve Firefox for you and for other Firefox users.
 
 
+# This string is displayed when selecting Raw Data near the title
+# Links to https://gecko.readthedocs.org/en/latest/toolkit/components/telemetry/telemetry/
 # This string is displayed when selecting Raw Data near the title
 # Links to https://gecko.readthedocs.org/en/latest/toolkit/components/telemetry/telemetry/
 ;Read technical documentation for the data format and fields.
