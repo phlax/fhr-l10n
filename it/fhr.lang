@@ -1,7 +1,3 @@
-## NOTE: To test this page you can open about:config and set datareporting.healthreport.about.reportUrl to https://fhr-dev.allizom.org/%LOCALE%/v4/
-## NOTE: Then open about:healthreport in Firefox
-
-
 ;Firefox Health Report
 Analisi integrità di Firefox
 
@@ -59,10 +55,12 @@ Aggiornamenti
 
 
 # Possible value for "updates"
+# Possible value for "updates"
 ;automatic
 automatici
 
 
+# Possible value for "updates"
 # Possible value for "updates"
 ;prompt
 richiesta
@@ -469,7 +467,7 @@ Benvenuto.
 
 
 ;Firefox Health Report lets you know how your Firefox is performing and what you can do to improve it.
-Analisi integrità di Firefox (<abbr title="Firefox Health Report">FHR</abbr>) permette di valutare le prestazioni della propria versione di Firefox e scoprire come migliorarle.
+Analisi integrità di Firefox (<abbr title="Firefox Health Report">FHR</abbr>) permette di valutare le prestazioni della propria versione di Firefox e scoprire come migliorarle. asdfasdf asdfasdf asdf
 
 
 ;See My Report
@@ -488,6 +486,7 @@ Visualizza statistiche
 Informativa sulla privacy
 
 
+# The following strings are used only in the Mobile version of about:healthreport (Firefox for Android)
 # The following strings are used only in the Mobile version of about:healthreport (Firefox for Android)
 ;Firefox Health Report lets you optimize your Firefox and helps us build a more excellent browser. Reports will be pretty basic at first, but will continue to evolve and grow.
 Analisi integrità di Firefox consente di ottimizzare Firefox e ci permette di realizzare un browser migliore. I rapporti saranno piuttosto semplici all’inizio, ma continueranno a evolversi e a crescere.
@@ -746,10 +745,13 @@ Al momento non stai condividendo i dati con Mozilla.
 
 
 # This string is displayed when selecting Raw Data near the title
+# This string is displayed when selecting Raw Data near the title
 ;Firefox Health Report (FHR) records anonymous data about your computer, configuration, usage, performance, and error conditions. This data helps us improve Firefox for you and for other Firefox users.
 Firefox Health Report (FHR) registra in modo anonimo informazioni relative a computer, configurazione, utilizzo, prestazioni e condizioni di errore. Questi dati ci permettono di continuare a migliorare Firefox per tutti gli utenti.
 
 
+# This string is displayed when selecting Raw Data near the title
+# Links to https://gecko.readthedocs.org/en/latest/toolkit/components/telemetry/telemetry/
 # This string is displayed when selecting Raw Data near the title
 # Links to https://gecko.readthedocs.org/en/latest/toolkit/components/telemetry/telemetry/
 ;Read technical documentation for the data format and fields.
